@@ -34,4 +34,9 @@
 - TA005: Defense Evasion
 - TA006: Credential Access
 
-
+## Tools Integration Goals
+- Use Ansible to deploy and configure all core components (Wazuh, Suricata, Splunk Forwarders, etc. )
+- Ship Logs from Suricata and Wazuh into both ELK and Splunk
+- Compare Search performance and detection coverage
+- Simulate configuration drift or malicious playbook executioin
+- Trigger Ansible response (like a firewall rule or service restart ) from a detection
